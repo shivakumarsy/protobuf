@@ -1,0 +1,11 @@
+syntax="proto3";
+
+
+message Car{
+  string name =1;
+  string model =2;
+}
+
+message Dealer{
+  map<int32,Car> model = 1;
+}
